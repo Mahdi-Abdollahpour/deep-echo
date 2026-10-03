@@ -1,6 +1,6 @@
-# MDX: Efficient Neural 5G NR Receivers and Channel Estimators
+# DeepEcho: Efficient Neural 5G NR Receivers and Channel Estimators
 
-MDX is a TensorFlow/Sionna framework for designing, training and evaluating
+DeepEcho is a TensorFlow/Sionna framework for designing, training and evaluating
 low-complexity neural receivers and channel estimators for the 5G NR Physical
 Uplink Shared Channel (PUSCH).
 
@@ -30,8 +30,9 @@ TensorFlow graph/XLA mode.
 **Coming next:** CELERE, a new channel estimator currently under development,
 will be added in a future release.
 
-> The previous version of this repository (MDX, GLOBECOM 2025 only) is
-> available under the tag `v0`.
+> This repository was previously named `mdx`, after the MDX receiver of [1];
+> old links redirect here. The MDX-only version (GLOBECOM 2025) is available
+> under the tag `v0`.
 
 ## Receivers as config files
 
@@ -228,8 +229,8 @@ weights/     trained weights
 Recommended: Ubuntu 22.04, Python 3.10, TensorFlow 2.15, an NVIDIA GPU.
 
 ```bash
-git clone --recursive https://github.com/Mahdi-Abdollahpour/mdx.git
-cd mdx
+git clone --recursive https://github.com/Mahdi-Abdollahpour/deep-echo.git
+cd deep-echo
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 pip install -e ext/sionna
@@ -354,12 +355,12 @@ If you use this code, please cite the repository and the papers of the
 models you use:
 
 ```bibtex
-@software{mahdi2026mdxrepo,
-  title   = {{MDX}: Efficient Neural {5G NR} Receivers and Channel Estimators},
+@software{mahdi2026deepecho,
+  title   = {{DeepEcho}: Efficient Neural {5G NR} Receivers and Channel Estimators},
   author  = {Abdollahpour, Mahdi},
   year    = {2026},
   version = {v1},
-  url     = {https://github.com/Mahdi-Abdollahpour/mdx}
+  url     = {https://github.com/Mahdi-Abdollahpour/deep-echo}
 }
 
 @inproceedings{mahdi2025mdx,
