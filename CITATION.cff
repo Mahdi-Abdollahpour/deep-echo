@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below, together with the papers of the models you use."
-title: "MDX: Efficient Neural 5G NR Receivers and Channel Estimators"
+title: "DeepEcho: Efficient Neural 5G NR Receivers and Channel Estimators"
 type: software
 authors:
   - family-names: Abdollahpour
     given-names: Mahdi
     affiliation: University of Bologna
 version: v1
-repository-code: "https://github.com/Mahdi-Abdollahpour/mdx"
+repository-code: "https://github.com/Mahdi-Abdollahpour/deep-echo"
 keywords:
   - 5G NR
   - neural receiver
